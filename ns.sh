@@ -80,7 +80,7 @@ read -p "Did you go back to the main page?
 (y/n) : " h1
 if [[ $h1 == y ]];then
 
-bash ps.sh
+bash ns.sh
 elif [[ $h1 == n ]];then
 echo -e "\e[1;31m   Ok"
 
@@ -100,7 +100,7 @@ read -p "Did you go back to the main page?
 (y/n) : " h1
 if [[ $h1 == y ]];then
 
-bash ps.sh
+bash ns.sh
 elif [[ $h1 == n ]];then
 echo -e "\e[1;31m   Ok"
 
@@ -122,7 +122,7 @@ read -p "Did you go back to the main page?
 (y/n) : " h1
 if [[ $h1 == y ]];then
 
-bash ps.sh
+bash ns.sh
 elif [[ $h1 == n ]];then
 echo -e "\e[1;31m   Ok"
 
@@ -146,7 +146,7 @@ read -p "Did you go back to the main page?
 (y/n) : " h1
 if [[ $h1 == y ]];then
 
-bash ps.sh
+bash ns.sh
 elif [[ $h1 == n ]];then
 echo -e "\e[1;31m   Ok"
 
@@ -166,7 +166,7 @@ read -p "Did you go back to the main page?
 (y/n) : " h1
 if [[ $h1 == y ]];then
 
-bash ps.sh
+bash ns.sh
 elif [[ $h1 == n ]];then
 echo -e "\e[1;31m   Ok"
 
